@@ -1,3 +1,4 @@
+# this is the cloud builder configuration file
 steps:
   - name: "gcr.io/cloud-builders/go"
     args: ["install", "github.com/{GITHUB_HANDLE}/gcp-cd-codelab"]
